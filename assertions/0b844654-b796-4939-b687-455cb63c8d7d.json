@@ -1,12 +1,12 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://amfv-credenciales.github.io/amfv-credenciales/assertions/6ad5e32f-1cea-4e33-b644-5d4c0a07bb72.json",
+  "id": "https://amfv-credenciales.github.io/amfv-credenciales/assertions/0b844654-b796-4939-b687-455cb63c8d7d.json",
   "recipient": {
     "type": "email",
     "hashed": true,
-    "salt": "a3dc99d056624d7cb52aedaab22d5bf5",
-    "identity": "sha256$87c1ab96d0ba9625edbc459203939cea63eec7d54ae820cffe036f5e4ea6d90d"
+    "salt": "53ebd1a6acbe4c23b75ac17391f90e29",
+    "identity": "sha256$340edaa5d7f9d8278dad727016fce501946826d6d69038ee5226a1bc29ef9ee9"
   },
   "issuedOn": "2026-05-21T00:00:00Z",
   "badge": "https://amfv-credenciales.github.io/amfv-credenciales/badges/bpfv.json",
