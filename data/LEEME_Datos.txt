@@ -1,0 +1,8 @@
+INSTRUCCIONES DE DATOS
+
+1. Para generar constancias, crea un archivo llamado attendees.csv en esta carpeta data.
+2. El archivo debe tener exactamente estas columnas:
+   full_name,email,issued_on
+3. issued_on debe estar en formato YYYY-MM-DD.
+4. data/attendees.csv y data/output_mailmerge.csv contienen datos personales/correos y NO deben subirse a GitHub.
+5. Para hacer prueba, puedes copiar attendees_PRUEBA_ELEAZAR.csv y renombrarlo como attendees.csv.

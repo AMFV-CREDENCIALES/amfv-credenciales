@@ -1,19 +1,20 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "BadgeClass",
-  "id": "https://eleazar14.github.io/amfv-badges-pilot/badges/pv101.json",
-  "name": "AMFV Piloto – PV 101 (Curso ficticio)",
-  "description": "Badge de prueba emitido al completar el curso ficticio PV 101.",
-  "image": "https://eleazar14.github.io/amfv-badges-pilot/images/amfv-pilot-badge.png",
+  "id": "https://amfv-credenciales.github.io/amfv-credenciales/badges/bpfv.json",
+  "name": "Buenas prácticas de Farmacovigilancia: Inspecciones y auditorías. De la preparación a la ejecución estratégica.",
+  "description": "Constancia digital emitida por la Asociación Mexicana de Farmacovigilancia, A.C. por la participación en el taller “Buenas prácticas de Farmacovigilancia: Inspecciones y auditorías. De la preparación a la ejecución estratégica.”",
+  "image": "https://amfv-credenciales.github.io/amfv-credenciales/images/bpfv-badge.png",
   "criteria": {
-    "narrative": "Se otorga por completar el curso ficticio PV 101 y responder correctamente un mini‑quiz de cierre."
+    "narrative": "La persona participante cumplió los criterios definidos por la Asociación Mexicana de Farmacovigilancia, A.C. para la emisión de esta constancia digital, conforme al registro y validación interna del taller."
   },
-  "issuer": "https://eleazar14.github.io/amfv-badges-pilot/issuer.json",
+  "issuer": "https://amfv-credenciales.github.io/amfv-credenciales/issuer.json",
   "tags": [
-    "pharmacovigilance",
-    "drug safety",
-    "mexico",
-    "open badges",
-    "pilot"
+    "farmacovigilancia",
+    "buenas prácticas de farmacovigilancia",
+    "auditorías",
+    "inspecciones",
+    "AMFV",
+    "constancia digital"
   ]
 }

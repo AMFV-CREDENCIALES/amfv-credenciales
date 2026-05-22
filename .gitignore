@@ -1,0 +1,9 @@
+# Datos personales / archivos locales
+/data/attendees.csv
+/data/output_mailmerge.csv
+
+# Archivos temporales
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
