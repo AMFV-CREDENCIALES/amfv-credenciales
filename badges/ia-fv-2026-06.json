@@ -1,0 +1,22 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "https://amfv-credenciales.github.io/amfv-credenciales/badges/ia-fv-2026-06.json",
+  "type": "BadgeClass",
+  "name": "IA aplicada en Farmacovigilancia: Casos prácticos e implementación",
+  "description": "Insignia otorgada por la Asociación Mexicana de Farmacovigilancia, A.C. a participantes que completaron el taller en línea 'IA aplicada en Farmacovigilancia: Casos prácticos e implementación', impartido los días 6 y 20 de junio de 2026, con una duración total de 12 horas. El taller abordó el uso práctico y responsable de inteligencia artificial en actividades reales de farmacovigilancia, incluyendo extracción de información de ICSRs, prompting farmacovigilante, revisión de literatura, análisis introductorio de señales de seguridad, evaluación asistida de posibles interacciones y diseño de soluciones de implementación responsable.",
+  "image": "https://amfv-credenciales.github.io/amfv-credenciales/images/ia-fv-2026-06-badge.png",
+  "criteria": {
+    "id": "https://amfv-credenciales.github.io/amfv-credenciales/evidence/ia-fv-2026-06.html",
+    "narrative": "La insignia se otorga a participantes del taller 'IA aplicada en Farmacovigilancia: Casos prácticos e implementación', impartido por la Asociación Mexicana de Farmacovigilancia, A.C. en modalidad en línea vía Zoom los días 6 y 20 de junio de 2026, con una duración total de 12 horas. El taller incluyó fundamentos prácticos de IA, prompting aplicado a farmacovigilancia, extracción estructurada de datos desde narrativas de ICSRs, revisión crítica de outputs, uso de literatura médica, conceptos introductorios de señales de seguridad y evaluación responsable de posibles casos de uso de IA en farmacovigilancia."
+  },
+  "issuer": "https://amfv-credenciales.github.io/amfv-credenciales/issuer.json",
+  "tags": [
+    "farmacovigilancia",
+    "inteligencia artificial",
+    "IA aplicada",
+    "casos practicos",
+    "implementacion",
+    "AMFV",
+    "open badges"
+  ]
+}

@@ -1,0 +1,9 @@
+Colocar aquí los PDFs individuales de constancia del taller IA-FV 2026.
+
+Nombres recomendados:
+iafv202606-001.pdf
+iafv202606-002.pdf
+iafv202606-003.pdf
+
+La URL pública esperada para cada PDF será:
+https://amfv-credenciales.github.io/amfv-credenciales/certificates/ia-fv-2026-06/<nombre_del_pdf>.pdf

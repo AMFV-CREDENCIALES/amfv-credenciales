@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA aplicada en Farmacovigilancia: Casos prácticos e implementación | Evidencia</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f9;
+      color: #1f2937;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 32px auto;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      padding: 36px;
+    }
+
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+
+    .badge-image {
+      width: 220px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    h1 {
+      margin: 0 0 10px 0;
+      color: #0f2e6d;
+      font-size: 32px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      color: #0f2e6d;
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #0b8fa5;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .note {
+      background: #eef6ff;
+      border-left: 4px solid #0b8fa5;
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin-top: 24px;
+    }
+
+    .footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 14px;
+      color: #4b5563;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <img src="../images/ia-fv-2026-06-badge.png" alt="Insignia IA aplicada en Farmacovigilancia" class="badge-image">
+
+      <div>
+        <h1>IA aplicada en Farmacovigilancia: Casos prácticos e implementación</h1>
+        <div class="subtitle">Evidencia general de la actividad formativa</div>
+        <p><strong>Emisor:</strong> Asociación Mexicana de Farmacovigilancia, A.C.</p>
+        <p><strong>Tipo de evidencia:</strong> Página pública descriptiva del taller e información de la insignia digital.</p>
+      </div>
+    </div>
+
+    <h2>Descripción del taller</h2>
+    <p>
+      Taller práctico diseñado para aplicar herramientas de inteligencia artificial en actividades reales de farmacovigilancia.
+      Su enfoque se centró en el uso responsable, trazable y útil de la IA para apoyar tareas operativas, analíticas y de implementación,
+      sin sustituir el juicio profesional del farmacovigilante.
+    </p>
+
+    <h2>Dirigido a</h2>
+    <p>
+      Farmacovigilantes de industria farmacéutica, responsables locales, QPPV/responsables sanitarios y perfiles junior,
+      intermedios o senior interesados en aplicar IA en actividades reales de farmacovigilancia.
+    </p>
+
+    <h2>Objetivo general</h2>
+    <p>
+      Desarrollar habilidades prácticas para aplicar herramientas de inteligencia artificial en actividades reales de farmacovigilancia,
+      incluyendo procesamiento de ICSRs, análisis de información, revisión de literatura, identificación de RAMs/señales de seguridad,
+      evaluación de posibles interacciones y diseño de flujos de implementación responsable, con criterios de calidad, trazabilidad,
+      confidencialidad y control.
+    </p>
+
+    <h2>Resultados esperados de aprendizaje</h2>
+    <ul>
+      <li>Identificar usos reales de IA aplicables al trabajo diario del farmacovigilante.</li>
+      <li>Distinguir IA generativa, machine learning, automatización y analítica avanzada.</li>
+      <li>Construir prompts más seguros, específicos y verificables para tareas de farmacovigilancia.</li>
+      <li>Extraer información estructurada desde narrativas simuladas de ICSRs.</li>
+      <li>Evaluar outputs generados por IA con criterios de calidad, trazabilidad y control.</li>
+      <li>Usar literatura médica como fuente de información relevante para farmacovigilancia con apoyo de IA.</li>
+      <li>Explorar datos públicos y datasets preparados para análisis de RAMs/señales.</li>
+      <li>Comprender de forma introductoria conceptos como ROR, PRR, AUC, sensibilidad, especificidad y falsos positivos.</li>
+      <li>Evaluar posibles interacciones con apoyo de IA sin depender de la IA como fuente única de decisión.</li>
+      <li>Diseñar un caso de uso de IA aplicable a una organización, incluyendo riesgos y controles mínimos.</li>
+    </ul>
+
+    <h2>Contenido general del taller</h2>
+    <ul>
+      <li>Fundamentos prácticos de IA para farmacovigilancia.</li>
+      <li>Riesgos críticos: confidencialidad, datos personales, alucinaciones, sesgos, trazabilidad y validación.</li>
+      <li>Prompting farmacovigilante aplicado a extracción, clasificación, QC y revisión.</li>
+      <li>Extracción estructurada de información desde narrativas simuladas de ICSRs.</li>
+      <li>Revisión crítica de outputs y definición de queries/follow-up.</li>
+      <li>Uso de IA para literatura médica y detección de información de seguridad.</li>
+      <li>Datos en farmacovigilancia: datos simulados, datos públicos, FAERS/openFDA, calidad y limitaciones.</li>
+      <li>Introducción a señales de seguridad: RAMs, disproporcionalidad, ROR/PRR e interpretación.</li>
+      <li>Introducción práctica a modelos supervisados y lectura crítica de métricas.</li>
+      <li>Evaluación asistida de posibles interacciones y diseño de soluciones mediante mini-hackathon.</li>
+    </ul>
+
+    <h2>Criterio general de otorgamiento de la insignia</h2>
+    <p>
+      La insignia digital se otorga a participantes del taller
+      <strong>“IA aplicada en Farmacovigilancia: Casos prácticos e implementación”</strong>,
+      conforme a los criterios definidos por la Asociación Mexicana de Farmacovigilancia, A.C.
+      para validar la participación correspondiente.
+    </p>
+
+    <div class="note">
+      Esta página describe la actividad formativa y el criterio general de la insignia.
+      La validación individual del participante se realiza mediante su credencial específica
+      y su assertion asociada.
+    </div>
+
+    <div class="footer">
+      <p><strong>Emisor:</strong> Asociación Mexicana de Farmacovigilancia, A.C.</p>
+    </div>
+
+  </div>
+</body>
+</html>
