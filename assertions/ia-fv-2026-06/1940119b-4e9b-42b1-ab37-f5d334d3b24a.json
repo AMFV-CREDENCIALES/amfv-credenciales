@@ -1,0 +1,22 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://amfv-credenciales.github.io/amfv-credenciales/assertions/ia-fv-2026-06/1940119b-4e9b-42b1-ab37-f5d334d3b24a.json",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "salt": "a2c38aa39ec942309c0576da845408a7",
+    "identity": "sha256$e596ff011b5f81dfebeb4e995702228aa3662e86d048a1bded53b5dcdad303a8"
+  },
+  "issuedOn": "2026-06-20T00:00:00Z",
+  "badge": "https://amfv-credenciales.github.io/amfv-credenciales/badges/ia-fv-2026-06.json",
+  "verification": {
+    "type": "hosted"
+  },
+  "evidence": [
+    {
+      "id": "https://amfv-credenciales.github.io/amfv-credenciales/evidence/ia-fv-2026-06.html",
+      "narrative": "Evidencia: participación validada por la Asociación Mexicana de Farmacovigilancia, A.C. conforme a los criterios definidos para el taller."
+    }
+  ]
+}
